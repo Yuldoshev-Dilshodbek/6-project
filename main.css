@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 958px;
+  height: 532px;
+  margin: 0 auto;
+  background-image: url(../images/img/Frame.svg);
+}
+
+header {
+  display: flex;
+  margin-top: 20px;
+  max-width: 0 auto;
+}
+header img {
+  width: 50px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+header nav {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+header nav ol {
+  display: flex;
+  gap: 40px;
+}
+header nav ol li {
+  list-style: none;
+  color: white;
+}
+header nav ol li a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+header .icon {
+  margin-left: 270px;
+  margin-top: 10px;
+}
+header .icon img {
+  width: 12px;
+  height: 12px;
+}
+
+ 
+header .icon .savat {
+  margin-left: 80px;
+  width: 15px;
+  height: 15px;
+}
+header section {
+  display: block;
+  gap: 5px;
+  margin-top: 23px;
+  margin-left: 140px;
+}
+header section div {
+  width: 22px;
+  height: 2px;
+  background-color: black;
+  margin-top: 2px;
+}
+
+main .keta {
+  position: absolute;
+  left: 420px;
+}
+main .zebra {
+  position: absolute;
+  left: 460px;
+  top: 190px;
+}
+main .right {
+  position: absolute;
+  margin-left: 700px;
+  margin-top: 80px;
+}
+main .right .one {
+  gap: 10px;
+  display: flex;
+}
+main .right .one div {
+  width: 7px;
+  height: 7px;
+  background-color: black;
+  transform: rotate(45deg);
+}
+main .right section {
+  display: flex;
+}
+main .right section div h1 {
+  color: white;
+  font-size: 35px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+}
+main .right section div h3 {
+  color: white;
+}
+main .right section div div {
+  width: 210px;
+  color: white;
+  margin-top: 10px;
+}
+main .right section div button {
+  width: 131px;
+  height: 37px;
+  background-color: orange;
+  color: white;
+  margin-top: 15px;
+  border-radius: 25px;
+  border: 1px solid;
+}
+main .right section .five {
+  display: flex;
+}
+.btn:hover {
+  background-color: rgb(225, 150, 10);
+}
